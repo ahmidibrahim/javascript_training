@@ -1,17 +1,11 @@
-/* global  console, alert */
+/* global console, alert */
 
- 
-    Start With Letters, Underscore, $
+/*
+    Boolean: True, False
+    Array: ["facebook.com", "youtube.com", "google.com"]
+    Object: {firstName: "Ahmid", lastName: "XP"}
+*/
 
-var = JavaScript Variable Keyword
+var myInfo = {firstName: "Ahmid", lastName: "XP"};
 
-myPrice = Variable Name
-
-    ( =) = Assignment Operator
-
-100 = Variable Value
-
-
-var mainPrice = 500;
-
-// document.getElementById("price").innerHTML = mainPrice;
+document.getElementById("test").innerHTML = myInfo.firstName;

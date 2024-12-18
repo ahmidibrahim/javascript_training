@@ -1,5 +1,11 @@
 {
   "recommendations": [
-    "oderwat.indent-rainbow"
+    "oderwat.indent-rainbow",
+    "johnpapa.vscode-peacock",
+    "esbenp.prettier-vscode",
+    "wix.vscode-import-cost",
+    "re-do.redo-rainbow-theme",
+    "codestackr.codestackr-theme",
+    "jslint.vscode-jslint"
   ]
 }
