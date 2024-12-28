@@ -1,11 +1,20 @@
 /* global console, alert */
 
 /*
-    Boolean: True, False
-    Array: ["facebook.com", "youtube.com", "google.com"]
-    Object: {firstName: "Ahmid", lastName: "XP"}
+
+
 */
 
-var myInfo = {firstName: "Ahmid", lastName: "XP"};
+var myName = "Ahmid",
 
-document.getElementById("test").innerHTML = myInfo.firstName;
+    myAge = 32,
+
+    myCountry = "Egypt";
+
+document.getElementById("test").innerHTML =
+
+    "My Name Is: " + myName + "<br>" +
+
+    "My Age Is: " + myAge + "<br>" +
+
+    "My Country Is: " + myCountry;
