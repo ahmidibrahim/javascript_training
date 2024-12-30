@@ -1,14 +1,16 @@
-/* global console, alert */
+/* Control Flow -If, Else If, ELse Conditions */
 
-var myName = "Ahmid",
+var ticketPrice = 2000;
 
-    myAge = 44,
+if (ticketPrice < 1500) {
 
-    myDiv = document.getElementById("test");
-// alert(" MyName IS :  " + myName + " And My Age is : " + myAge);
+  console.log("Yes, It's Cheap");
 
-// document.write(" MyName is :  " + myName + ", And My Age is : " + myAge);
+} else if (ticketPrice = 2000) {
 
-// myDiv.innerHTML = "MyName is :  " + myName + ", And My Age is : " + myAge;
+  console.log ("Yes, It's Good Price");
 
-// console.log("MyName is :  " + myName + ", And My Age is : " + myAge);
+} else {
+
+  console.log("No, It's Expensive");
+}
