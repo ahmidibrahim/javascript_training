@@ -1,20 +1,14 @@
 /* global console, alert */
 
-/*
-
-
-*/
-
 var myName = "Ahmid",
 
-    myAge = 32,
+    myAge = 44,
 
-    myCountry = "Egypt";
+    myDiv = document.getElementById("test");
+// alert(" MyName IS :  " + myName + " And My Age is : " + myAge);
 
-document.getElementById("test").innerHTML =
+// document.write(" MyName is :  " + myName + ", And My Age is : " + myAge);
 
-    "My Name Is: " + myName + "<br>" +
+// myDiv.innerHTML = "MyName is :  " + myName + ", And My Age is : " + myAge;
 
-    "My Age Is: " + myAge + "<br>" +
-
-    "My Country Is: " + myCountry;
+// console.log("MyName is :  " + myName + ", And My Age is : " + myAge);
